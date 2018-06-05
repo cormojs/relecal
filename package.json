@@ -1,0 +1,33 @@
+{
+  "name": "relecal",
+  "version": "0.0.1",
+  "description": "RELAY BLOG CALENDER web APP -> RELEC@L",
+  "main": "web/index.tsx",
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/relecal/relecal.git"
+  },
+  "author": "YaQ",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/relecal/relecal/issues"
+  },
+  "homepage": "https://github.com/relecal/relecal#readme",
+  "dependencies": {
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0"
+  },
+  "devDependencies": {
+    "@types/react-dom": "^16.0.6",
+    "@types/react": "^16.3.16",
+    "sass-loader": "^7.0.2",
+    "ts-loader": "^4.3.1",
+    "typescript": "^2.9.1",
+    "webpack": "^4.10.2",
+    "webpack-cli": "^3.0.2",
+    "webpack-dev-server": "^3.1.4"
+  }
+}
